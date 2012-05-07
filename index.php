@@ -1,4 +1,4 @@
-<h1>Urlizer service</h1>
+<h1>Urlizer service (experimental)</h1>
 <?php
 require 'vendor/midgard/midgardmvc-helper-urlize/interface.php';
 $string = 'älä lyö ääliö ööliä läikkyy';
