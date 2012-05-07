@@ -1,17 +1,4 @@
 {
-    "repositories": {
-        "phptal": {
-            "type": "package",
-            "package": {
-                "name": "phptal/phptal",
-                "version": "1.2.2",
-                "dist": {
-                    "url": "http://phptal.org/files/PHPTAL-1.2.2.zip",
-                    "type": "zip"
-                }
-            }
-        }
-    },
     "require": {
         "php": ">=5.2.0",
         "midgard/midgardmvc-helper-urlize": "*"
