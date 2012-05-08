@@ -2,7 +2,11 @@
 require 'vendor/midgard/midgardmvc-helper-urlize/interface.php';
 
 if (isset($_GET['urlize'])) {
-    die(midgardmvc_helper_urlize::string($_GET['urlize']));
+    $data = array();
+    $data['from'] = $_GET['urlize'];
+    $data['to'] = midgardmvc_helper_urlize::string($_GET['urlize']);
+    header('Content-type: application/json');
+    die(json_encode($data));
 }
 ?>
 <h1>Urlizer service</h1>
