@@ -3,6 +3,9 @@
 
 require 'vendor/midgard/midgardmvc-helper-urlize/interface.php';
 
+// Allow CORS so that this can be easily used from JavaScript
+header('Access-Control-Allow-Origin: *');
+
 if (isset($_GET['urlize'])) {
     $data = array();
     $data['from'] = $_GET['urlize'];
