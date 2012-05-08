@@ -1,4 +1,6 @@
 <?php
+// URLizer service
+
 require 'vendor/midgard/midgardmvc-helper-urlize/interface.php';
 
 if (isset($_GET['urlize'])) {
