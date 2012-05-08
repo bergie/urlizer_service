@@ -10,3 +10,5 @@ Creating such an app is easy. Simply set it to use the custom PHP buildpack unti
 And then deploy:
 
     $ git push heroku master
+
+You can see an example at [Heroku](http://urlizer-service.herokuapp.com/?urlize=%C3%A4l%C3%A4+ly%C3%B6+%C3%A4%C3%A4li%C3%B6)
