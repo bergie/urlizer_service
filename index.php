@@ -5,9 +5,10 @@ if (isset($_GET['urlize'])) {
     $data = array();
     $data['from'] = $_GET['urlize'];
     $data['to'] = midgardmvc_helper_urlize::string($_GET['urlize']);
-    header('Content-type: application/json');
+    header('Content-type: application/json; charset=utf-8');
     die(json_encode($data));
 }
+header('Content-Type: text/html; charset=utf-8');
 ?>
 <h1>Urlizer service</h1>
 <form method="GET">
