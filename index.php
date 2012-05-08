@@ -20,5 +20,5 @@ header('Content-Type: text/html; charset=utf-8');
 </form>
 
 <p>
-URLize service uses the <a href="http://packagist.org/packages/midgard/midgardmvc-helper-urlize">midgardmvc-helper-urlize</a> library.
+URLize service uses the <a href="http://packagist.org/packages/midgard/midgardmvc-helper-urlize">midgardmvc-helper-urlize</a> library. <a href="https://github.com/bergie/urlizer_service">Source code</a>.
 </p>
