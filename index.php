@@ -1,7 +1,7 @@
 <?php
 // URLizer service
 
-require 'vendor/midgard/midgardmvc-helper-urlize/interface.php';
+require 'vendor/autoload.php';
 
 // Allow CORS so that this can be easily used from JavaScript
 header('Access-Control-Allow-Origin: *');
